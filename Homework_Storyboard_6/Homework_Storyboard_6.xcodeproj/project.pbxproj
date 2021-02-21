@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		5D3C170425E2758100A939FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C170325E2758100A939FF /* AppDelegate.swift */; };
 		5D3C170625E2758100A939FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C170525E2758100A939FF /* SceneDelegate.swift */; };
-		5D3C170825E2758100A939FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C170725E2758100A939FF /* ViewController.swift */; };
 		5D3C170B25E2758100A939FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3C170925E2758100A939FF /* Main.storyboard */; };
 		5D3C170D25E2758300A939FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3C170C25E2758300A939FF /* Assets.xcassets */; };
 		5D3C171025E2758300A939FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3C170E25E2758300A939FF /* LaunchScreen.storyboard */; };
+		5D3C171A25E27FB800A939FF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C171925E27FB800A939FF /* MenuViewController.swift */; };
+		5D3C171E25E2800200A939FF /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C171D25E2800200A939FF /* MealViewController.swift */; };
+		5D3C172125E2805700A939FF /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172025E2805700A939FF /* ReviewViewController.swift */; };
+		5D3C172425E2809100A939FF /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172325E2809100A939FF /* AddReviewViewController.swift */; };
+		5D3C172725E2930500A939FF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172625E2930500A939FF /* Meal.swift */; };
+		5D3C172A25E2943D00A939FF /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172925E2943D00A939FF /* Review.swift */; };
+		5D3C172D25E2965B00A939FF /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172C25E2965B00A939FF /* AppData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D3C170025E2758100A939FF /* Homework_Storyboard_6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework_Storyboard_6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3C170325E2758100A939FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D3C170525E2758100A939FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D3C170725E2758100A939FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D3C170A25E2758100A939FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D3C170C25E2758300A939FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D3C170F25E2758300A939FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D3C171125E2758300A939FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3C171925E27FB800A939FF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5D3C171D25E2800200A939FF /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		5D3C172025E2805700A939FF /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		5D3C172325E2809100A939FF /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
+		5D3C172625E2930500A939FF /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		5D3C172925E2943D00A939FF /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		5D3C172C25E2965B00A939FF /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				5D3C170325E2758100A939FF /* AppDelegate.swift */,
 				5D3C170525E2758100A939FF /* SceneDelegate.swift */,
-				5D3C170725E2758100A939FF /* ViewController.swift */,
 				5D3C170925E2758100A939FF /* Main.storyboard */,
 				5D3C170C25E2758300A939FF /* Assets.xcassets */,
 				5D3C170E25E2758300A939FF /* LaunchScreen.storyboard */,
 				5D3C171125E2758300A939FF /* Info.plist */,
+				5D3C171925E27FB800A939FF /* MenuViewController.swift */,
+				5D3C171D25E2800200A939FF /* MealViewController.swift */,
+				5D3C172025E2805700A939FF /* ReviewViewController.swift */,
+				5D3C172325E2809100A939FF /* AddReviewViewController.swift */,
+				5D3C172625E2930500A939FF /* Meal.swift */,
+				5D3C172925E2943D00A939FF /* Review.swift */,
+				5D3C172C25E2965B00A939FF /* AppData.swift */,
 			);
 			path = Homework_Storyboard_6;
 			sourceTree = "<group>";
@@ -137,9 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3C170825E2758100A939FF /* ViewController.swift in Sources */,
+				5D3C172425E2809100A939FF /* AddReviewViewController.swift in Sources */,
+				5D3C172A25E2943D00A939FF /* Review.swift in Sources */,
 				5D3C170425E2758100A939FF /* AppDelegate.swift in Sources */,
+				5D3C172725E2930500A939FF /* Meal.swift in Sources */,
+				5D3C171E25E2800200A939FF /* MealViewController.swift in Sources */,
+				5D3C172125E2805700A939FF /* ReviewViewController.swift in Sources */,
+				5D3C171A25E27FB800A939FF /* MenuViewController.swift in Sources */,
 				5D3C170625E2758100A939FF /* SceneDelegate.swift in Sources */,
+				5D3C172D25E2965B00A939FF /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
