@@ -1,11 +1,11 @@
 import Foundation
 
-class Review {
+class Review: Codable {
     var date = Date()
     var review = ""
-    var rate = ""
+    var rate = 0
     
-    init(date: Date, review: String, rate: String) {
+    init(date: Date, review: String, rate: Int) {
         self.date = date
         self.review = review
         self.rate = rate

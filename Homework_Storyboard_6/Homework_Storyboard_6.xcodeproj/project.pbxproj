@@ -19,6 +19,7 @@
 		5D3C172725E2930500A939FF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172625E2930500A939FF /* Meal.swift */; };
 		5D3C172A25E2943D00A939FF /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172925E2943D00A939FF /* Review.swift */; };
 		5D3C172D25E2965B00A939FF /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172C25E2965B00A939FF /* AppData.swift */; };
+		5DB1FA9825E2A40300D781BF /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FA9725E2A40300D781BF /* Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5D3C172625E2930500A939FF /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		5D3C172925E2943D00A939FF /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		5D3C172C25E2965B00A939FF /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		5DB1FA9725E2A40300D781BF /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				5D3C172625E2930500A939FF /* Meal.swift */,
 				5D3C172925E2943D00A939FF /* Review.swift */,
 				5D3C172C25E2965B00A939FF /* AppData.swift */,
+				5DB1FA9725E2A40300D781BF /* Defaults.swift */,
 			);
 			path = Homework_Storyboard_6;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				5D3C171E25E2800200A939FF /* MealViewController.swift in Sources */,
 				5D3C172125E2805700A939FF /* ReviewViewController.swift in Sources */,
 				5D3C171A25E27FB800A939FF /* MenuViewController.swift in Sources */,
+				5DB1FA9825E2A40300D781BF /* Defaults.swift in Sources */,
 				5D3C170625E2758100A939FF /* SceneDelegate.swift in Sources */,
 				5D3C172D25E2965B00A939FF /* AppData.swift in Sources */,
 			);
