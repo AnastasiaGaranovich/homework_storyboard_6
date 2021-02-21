@@ -19,6 +19,9 @@
 		5D3C172725E2930500A939FF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172625E2930500A939FF /* Meal.swift */; };
 		5D3C172A25E2943D00A939FF /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172925E2943D00A939FF /* Review.swift */; };
 		5D3C172D25E2965B00A939FF /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C172C25E2965B00A939FF /* AppData.swift */; };
+		5D88F47925E2D196001E36BB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D88F47825E2D196001E36BB /* Utils.swift */; };
+		5D88F47C25E2F678001E36BB /* ReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D88F47B25E2F678001E36BB /* ReviewCell.xib */; };
+		5D88F47F25E2F74C001E36BB /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D88F47E25E2F74C001E36BB /* ReviewCell.swift */; };
 		5DB1FA9825E2A40300D781BF /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FA9725E2A40300D781BF /* Defaults.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		5D3C172625E2930500A939FF /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		5D3C172925E2943D00A939FF /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		5D3C172C25E2965B00A939FF /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		5D88F47825E2D196001E36BB /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5D88F47B25E2F678001E36BB /* ReviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewCell.xib; sourceTree = "<group>"; };
+		5D88F47E25E2F74C001E36BB /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		5DB1FA9725E2A40300D781BF /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +90,9 @@
 				5D3C172925E2943D00A939FF /* Review.swift */,
 				5D3C172C25E2965B00A939FF /* AppData.swift */,
 				5DB1FA9725E2A40300D781BF /* Defaults.swift */,
+				5D88F47825E2D196001E36BB /* Utils.swift */,
+				5D88F47B25E2F678001E36BB /* ReviewCell.xib */,
+				5D88F47E25E2F74C001E36BB /* ReviewCell.swift */,
 			);
 			path = Homework_Storyboard_6;
 			sourceTree = "<group>";
@@ -146,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3C171025E2758300A939FF /* LaunchScreen.storyboard in Resources */,
+				5D88F47C25E2F678001E36BB /* ReviewCell.xib in Resources */,
 				5D3C170D25E2758300A939FF /* Assets.xcassets in Resources */,
 				5D3C170B25E2758100A939FF /* Main.storyboard in Resources */,
 			);
@@ -159,12 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3C172425E2809100A939FF /* AddReviewViewController.swift in Sources */,
+				5D88F47F25E2F74C001E36BB /* ReviewCell.swift in Sources */,
 				5D3C172A25E2943D00A939FF /* Review.swift in Sources */,
 				5D3C170425E2758100A939FF /* AppDelegate.swift in Sources */,
 				5D3C172725E2930500A939FF /* Meal.swift in Sources */,
 				5D3C171E25E2800200A939FF /* MealViewController.swift in Sources */,
 				5D3C172125E2805700A939FF /* ReviewViewController.swift in Sources */,
 				5D3C171A25E27FB800A939FF /* MenuViewController.swift in Sources */,
+				5D88F47925E2D196001E36BB /* Utils.swift in Sources */,
 				5DB1FA9825E2A40300D781BF /* Defaults.swift in Sources */,
 				5D3C170625E2758100A939FF /* SceneDelegate.swift in Sources */,
 				5D3C172D25E2965B00A939FF /* AppData.swift in Sources */,
