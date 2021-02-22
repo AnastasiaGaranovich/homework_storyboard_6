@@ -10,4 +10,12 @@ class Review: Codable {
         self.review = review
         self.rate = rate
     }
+    
+    func checkRating() -> String {
+        var stars = ""
+        for _ in 0...self.rate - 1 {
+            stars += "⭐"
+        }
+        return stars
+    }
 }

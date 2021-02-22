@@ -25,4 +25,12 @@ class Meal {
         self.image = image
         self.reviews = reviews
     }
+    
+    func checkRating() -> String {
+        var stars = ""
+        for _ in 0...Int(self.averageRating) - 1 {
+            stars += "⭐"
+        }
+        return stars
+    }
 }

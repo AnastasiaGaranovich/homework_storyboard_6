@@ -17,7 +17,8 @@ class MealViewController: UIViewController {
     }
     
     @IBAction func addReviewButtonPressed(_ sender: UIButton) {
-        
+        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "AddReviewViewController") as! AddReviewViewController
+        present(viewController, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -25,7 +26,7 @@ class MealViewController: UIViewController {
         nameLabel.text = mealDescription.name
         mealImage.image = mealDescription.image
         descriptionLabel.text = mealDescription.description
-        ratingLabel.text = String(mealDescription.averageRating)
+        ratingLabel.text = mealDescription.checkRating()
     }
     
 }

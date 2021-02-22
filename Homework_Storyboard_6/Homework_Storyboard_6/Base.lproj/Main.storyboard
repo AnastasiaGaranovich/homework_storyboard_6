@@ -195,6 +195,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0O-cG-xOe">
                                 <rect key="frame" x="40" y="638" width="334" height="30"/>
                                 <state key="normal" title="Сохранить"/>
+                                <connections>
+                                    <action selector="saveReviewButtonPressed:" destination="FVl-dj-cG0" eventType="touchUpInside" id="BL9-F8-pO4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MI2-SQ-eQv"/>
@@ -213,6 +216,10 @@
                             <constraint firstItem="D0O-cG-xOe" firstAttribute="top" secondItem="xi5-gH-89x" secondAttribute="bottom" constant="120" id="rP5-D1-FAd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="rateSegmControl" destination="xi5-gH-89x" id="D2d-GF-5W6"/>
+                        <outlet property="reviewTextView" destination="6wY-Wq-S59" id="5ru-7Q-gib"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wMU-B2-xTZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

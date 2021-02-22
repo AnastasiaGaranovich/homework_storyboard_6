@@ -18,7 +18,7 @@ extension ReviewViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ReviewCell", for: indexPath) as! ReviewCell
         cell.reviewLabel.text = mealReview.reviews[indexPath.row].review
-        cell.ratingLabel.text = String(mealReview.reviews[indexPath.row].rate)
+        cell.ratingLabel.text = mealReview.reviews[indexPath.row].checkRating()
         cell.dateLabel.text = mealReview.reviews[indexPath.row].date.toString
         return cell
     }
