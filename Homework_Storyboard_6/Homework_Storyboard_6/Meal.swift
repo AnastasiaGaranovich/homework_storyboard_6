@@ -28,7 +28,7 @@ class Meal {
     
     func checkRating() -> String {
         var stars = ""
-        for _ in 0...Int(self.averageRating) - 1 {
+        for _ in 0..<Int(self.averageRating) {
             stars += "⭐"
         }
         return stars

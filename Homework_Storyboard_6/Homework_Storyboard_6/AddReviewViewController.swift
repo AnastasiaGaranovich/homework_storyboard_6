@@ -6,9 +6,12 @@ class AddReviewViewController: UIViewController {
     
     var mealReviews: Meal!
     
+    var onDone: (() -> ())!
+    
     @IBAction func saveReviewButtonPressed(_ sender: UIButton) {
         mealReviews.reviews.append(Review(date: Date(), review: reviewTextView.text, rate: rateSegmControl.selectedSegmentIndex))
-        Defaults.saveReview(reviews: mealReviews.reviews)
+        Defaults.saveReview(reviews: mealReviews.reviews, index: mealReviews.id)
+        onDone()
         dismiss(animated: true, completion: nil)
     }
 }

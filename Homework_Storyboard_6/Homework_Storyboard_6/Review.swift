@@ -13,7 +13,7 @@ class Review: Codable {
     
     func checkRating() -> String {
         var stars = ""
-        for _ in 0...self.rate - 1 {
+        for _ in 0..<self.rate {
             stars += "⭐"
         }
         return stars

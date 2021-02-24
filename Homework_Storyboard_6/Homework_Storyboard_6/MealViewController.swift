@@ -6,6 +6,7 @@ class MealViewController: UIViewController {
     @IBOutlet weak var mealImage: UIImageView!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var ratingLabel: UILabel!
+    @IBOutlet weak var reviewsButton: UIButton!
     
     var mealDescription: Meal!
     
@@ -18,6 +19,10 @@ class MealViewController: UIViewController {
     
     @IBAction func addReviewButtonPressed(_ sender: UIButton) {
         let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "AddReviewViewController") as! AddReviewViewController
+        viewController.mealReviews = mealDescription
+        viewController.onDone = {
+            self.viewWillAppear(true)
+        }
         present(viewController, animated: true, completion: nil)
     }
     
@@ -27,6 +32,16 @@ class MealViewController: UIViewController {
         mealImage.image = mealDescription.image
         descriptionLabel.text = mealDescription.description
         ratingLabel.text = mealDescription.checkRating()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        if(mealDescription.reviews.isEmpty) {
+            reviewsButton.isHidden = true
+        }
+        else {
+            reviewsButton.setTitle("Отзывы (\(mealDescription.reviews.count) отзывов)", for: .normal)
+        }
     }
     
 }
